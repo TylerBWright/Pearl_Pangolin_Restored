@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pearl Pangolin</title>
+    <link rel="stylesheet" href="{% static 'css/pp.css' %}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <h1>Pearl Pangolin</h1>
+  <hr />
+  <h2>Welcome!</h2>
+  <br />
+  <div id="center">
+    <img
+      class="main-image"
+      src="{% static 'images/pangolin.png' %}"
+      alt="A pangolin rolled into a ball"
+    />
+  </div>
+  <h3>
+    Get a hint, guess the animal, and then add your own. This is a recreation of
+    a long defunct HTML animal guessing game.
+  </h3>
+  <hr />
+  <h1><a>About</a></h1>
+  <h1><a>Play Game</a></h1>
+  <h1><a>Submit</a></h1>
+  <body>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pearl Pangolin - Play Game</title>
+    <link rel="stylesheet" href="{% static 'css/pp.css' %}" />
+  </head>
+  <h1>Play Game</h1>
+  <hr />
+  <br />
+  <h3>Try to guess the animal:</h3>
+  <br />
+  <form
+    id="contact_form"
+    method="post"
+    name="myemailform"
+    action="contact.php#contact_form"
+  >
+    <label for="your_name">Animal</label>
+    <input type="text" id="your_name" name="your_name" placeholder="pangolin" />
+
+    <input type="submit" value="Submit" />
+  </form>
+  <br />
+  <h3>
+    Answer correctly and then submit your own animal for the next person to
+    solve.
+  </h3>
+  <h1><a>Go Home</a></h1>
+  <hr />
+  <body></body>
+</html>

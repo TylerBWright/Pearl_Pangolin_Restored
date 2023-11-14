@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pearl Pangolin - Submit</title>
+    <link rel="stylesheet" href="{% static 'css/pp.css' %}" />
+  </head>
+  <h1>Submit Animal</h1>
+  <hr />
+  <br />
+  <h3>Submit an animal:</h3>
+  <br />
+  <form
+    id="contact_form"
+    method="post"
+    name="myemailform"
+    action="contact.php#contact_form"
+  >
+    <label for="your_name">Animal</label>
+    <input
+      type="text"
+      id="your_name"
+      name="your_name"
+      placeholder="John Smith"
+    />
+
+    <label for="your_time">Description</label>
+    <input
+      type="textarea"
+      id="your_message"
+      name="your_message"
+      placeholder="Spruce things up!"
+    />
+
+    <input type="submit" value="Submit" />
+  </form>
+  <h3>
+    I decided to recreate the Pearl Pangolin webpage from the 90's as I remember
+    it in my mind. Welcome!
+  </h3>
+  <h3>Play Game</h3>
+  <h3>About</h3>
+  <hr />
+  <h1>Contact Us</h1>
+  <body></body>
+</html>

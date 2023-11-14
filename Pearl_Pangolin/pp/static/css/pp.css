@@ -1,0 +1,214 @@
+#mainimage {
+  height: 200px;
+  display: block;
+  text-align: center;
+}
+
+#center {
+  text-align: center;
+}
+
+.link {
+  color: #146152;
+}
+
+.link:hover {
+  color: #00ff00;
+}
+
+body {
+  background-color: #bff1e3;
+}
+
+nav {
+  padding: 16px 16px 16px 16px;
+  border-bottom: 1px solid black;
+  color: white;
+}
+
+nav {
+  padding-left: 22px;
+}
+
+nav a {
+  color: white;
+}
+
+header {
+  border-bottom-color: 1 px black;
+}
+
+main {
+  padding: 16;
+}
+
+h1 {
+  color: #146152;
+  padding-left: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  padding-left: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #146152;
+  text-decoration: none;
+}
+
+footer {
+  padding-bottom: 24px;
+  padding-top: 24px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #b4cf66;
+}
+
+footer p {
+  padding-left: 22px;
+}
+
+header {
+  background-color: #ff5a33;
+  border-bottom: 1 px black;
+}
+
+ol {
+  padding-bottom: 30px;
+  padding-left: 22px;
+  margin-inline-start: 22px;
+}
+
+table {
+  padding-bottom: 30px;
+  padding-left: 22px;
+}
+
+.container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+  padding: 20px;
+}
+
+tr:nth-child(even) {
+  background: lightgray;
+}
+
+form {
+  text-align: left;
+  width: 500px;
+  margin: 20px auto 0;
+  border: solid 1px lightgray;
+}
+
+form label {
+  display: block;
+  width: 490px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  background: #27b18a;
+  color: white;
+}
+
+form input {
+  display: block;
+  padding: 10px;
+  width: 480px;
+  border: none;
+  font-size: 18px;
+  font-family: Georgia, Times, serif;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+form input[type="submit"] {
+  background: #27b18a;
+  color: white;
+  cursor: pointer;
+  width: 500px;
+}
+
+#mainimage {
+  display: block;
+  width: 100%;
+  background: none;
+}
+
+#mainspace {
+  display: block;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  background: none;
+}
+
+#map {
+  width: 30%;
+  padding: 0px 10px 0px 0px;
+  vertical-align: middle;
+  background: none;
+}
+
+a:link {
+  color: #146152;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #146152;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a:hover {
+  color: #686c5b;
+  cursor: pointer;
+}
+
+.sidebar:hover {
+  background: #fff;
+  background: url("images/star.png");
+}
+
+.sidebar h1:hover {
+  color: rgb(251, 90, 53, 1);
+}
+
+.sidebar {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+#your_message {
+  width: 95%;
+  height: 150px;
+}
+
+.picture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  justify-items: center;
+  grid-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.grid-box img {
+  width: 98%;
+}
